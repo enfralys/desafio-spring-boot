@@ -9,7 +9,7 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.test</groupId>
-	<artifactId>previred</artifactId>
+	<artifactId>agcv8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>previred</name>
 	<description>La empresa NUEVO SPA desea desarrollar una plataforma de gestión de tareas para mejorar la productividad de sus equipos. El sistema debe permitir a los usuarios crear, actualizar, eliminar y listar tareas. Además, se requiere autenticación mediante JWT y documentación de la API utilizando OpenAPI y Swagger.</description>
@@ -110,6 +110,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.sf.ucanaccess/ucanaccess -->
+		<dependency>
+			<groupId>net.sf.ucanaccess</groupId>
+			<artifactId>ucanaccess</artifactId>
+			<version>5.0.1</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>

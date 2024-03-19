@@ -29,7 +29,6 @@ public class SecurityConfig {
 
         return httpSecurity
                 .csrf().disable()
-
                 .authorizeRequests().antMatchers("/").permitAll().and()
                 .authorizeRequests().antMatchers("/console/**").permitAll().and()
                 .authorizeRequests().antMatchers("/swagger-ui/**").permitAll().and()
